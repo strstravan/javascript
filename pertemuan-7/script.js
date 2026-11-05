@@ -44,3 +44,29 @@ function luasPersegiPanjang(panjang , lebar) {
     console.log(panjang * lebar)
 }
 luasPersegiPanjang(10, 5)
+
+function salam(nama = "tamu") {
+    console.log("Assalamualaikum " + nama)
+}
+salam("haidar")
+
+function cetakNamaSiswa(jabatan,usia...name) {
+    console.log(jabatan + "" + usia + "" name{2})
+}
+cetakNamaSiswa("programer", 20, "haidar", "satria", "asoom", "keren","fulan")
+
+// return value
+function perkalian(a.b) {
+    return a + b
+}
+console.log(perkalian(10, 20))
+
+let user = "taufik";
+
+function cetakUser(){
+    let user2 = "nonim";
+
+    console.log("user1 : " + user)
+}
+console.log(user2)
+cetakUser()
